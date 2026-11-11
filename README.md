@@ -8,7 +8,7 @@ TrailTales is a photo travelogue web app. Upload your travel photos and it group
 
 - **Bulk upload** — drag-and-drop or pick photos; upload progress and per-file retry, with a summary of completed / in-progress / failed files.
 - **Trips, auto-grouped** — photos are grouped into trips by time (a new trip starts after 72 hours without a photo). Trips can be split or merged before confirming.
-- **Location recognition** — AI (Gemini) guesses each trip's location from the photos; the author confirms, edits, or skips per trip.
+- **Location recognition** — GPS coordinates embedded in the photo are used first when available; otherwise AI (Gemini) guesses the location from the photos; the author confirms, edits, or skips per trip.
 - **AI travelogues** — one travelogue per trip, generated from the trip's photos and locations, with per-place sections and photos. Regenerating creates a new draft; the published version stays live until the new one is published.
 - **Reading & editing** — rich-text editing (TipTap) with paragraph structure you control; font size and night mode saved per reader.
 - **Portal** — public list of published travelogues with search, five sort orders, and rule-based recommendations ("you may like").
